@@ -9,14 +9,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: inset 0px 0px 0px 300px rgba(0,0,0,0.6);
+    flex-direction: column;
+    box-shadow: inset 0px 0px 0px 999px rgba(0,0,0,0.6);
     filter: grayscale(-1%) contrast(200%) brightness(60%);
     -webkit-filter: grayscale(0) contrast(100%);
     
     
 }
 
-.title {
+.introTitle {
     color: #fff;
     margin: 0;
     font-size: 3em;
