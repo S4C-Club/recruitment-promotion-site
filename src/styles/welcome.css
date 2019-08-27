@@ -1,0 +1,10 @@
+.welcome {
+  height: 100vh;
+  text-align: center;
+  padding-top: 96px;
+}
+
+.title {
+    margin: 0;
+    padding-bottom: 24px;
+}
