@@ -1,0 +1,17 @@
+.intro {
+    background-image: url("../assests/biggame3.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #fff;
+    margin: 0;
+    font-size: 3em;
+}
