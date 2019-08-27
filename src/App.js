@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/style.css';
 import Intro from './pages/Intro';
+import Welcome from './pages/Welcome';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Intro />
       <AboutUs/> */}
       <Intro />
+      <Welcome />
     </div>
   );
 }
