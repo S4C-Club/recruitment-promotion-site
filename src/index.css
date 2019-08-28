@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Utm Aptima";
-  src: url("E:/coding/s4c/recruitment-promotion-site/src/assests/fonts/utm-aptima.ttf");
+  src: url("/assests/fonts/utm-aptima.ttf");
 }
 
 body {
@@ -17,3 +17,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+  

@@ -1,6 +1,6 @@
 .intro {
     position: relative; /* This protects the inner element from being blurred */
-	background-image: url("../assests/intro.jpg");
+	background-image: url("/assests/intro.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;

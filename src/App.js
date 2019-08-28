@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/style.css';
 import Intro from './pages/Intro';
 import Welcome from './pages/Welcome';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs/> */}
       <Intro />
       <Welcome />
+      <AboutUs/>
     </div>
   );
 }
