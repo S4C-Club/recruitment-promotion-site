@@ -45,12 +45,20 @@
   margin: 0;
 }
 
+.fas {
+  margin-top: 5px;
+}
+
 .contact-item {
   display: flex;
 }
 
 .contact-text {
   margin-left: 10px;
+}
+
+.social-media-link {
+  color: #fff;
 }
 
 .bottom-footer {

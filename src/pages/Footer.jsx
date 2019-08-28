@@ -20,15 +20,15 @@ function Footer() {
             <h3 className="footer-title">Liên hệ</h3>
             <ul className="contact-list list">
               <li className="contact-item">
-                <i class="fas fa-envelope"></i>{" "}
+                <i className="fas fa-envelope"></i>{" "}
                 <p className="contact-text">s4c.ptit@gmail.com</p>
               </li>
               <li className="contact-item">
-                <i class="fas fa-phone"></i>{" "}
+                <i className="fas fa-phone"></i>{" "}
                 <p className="contact-text">096 939 56 17</p>
               </li>
               <li className="contact-item">
-                <i class="fas fa-map-marked"></i>{" "}
+                <i className="fas fa-map-marked"></i>{" "}
                 <p className="contact-text">
                   Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội
                 </p>
@@ -38,22 +38,34 @@ function Footer() {
           <div className="social-media">
             <ul className="list social-media-list">
               <li className="social-media-item">
-                <i
-                  className="social-media-icon"
-                  class="fab fa-facebook-f fa-2x"
-                ></i>
+                <a
+                  href="https://www.facebook.com/S4C.club/"
+                  className="social-media-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-facebook-f fa-2x"></i>
+                </a>
               </li>
               <li className="social-media-item">
-                <i
-                  className="social-media-icon"
-                  class="fab fa-instagram fa-2x"
-                ></i>
+                <a
+                  href="https://www.instagram.com/s4c.ptit/"
+                  className="social-media-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-instagram fa-2x"></i>
+                </a>
               </li>
               <li className="social-media-item">
-                <i
-                  className="social-media-icon"
-                  class="fab fa-youtube fa-2x"
-                ></i>
+                <a
+                  href="https://www.youtube.com/channel/UCknqGRq0aw7X9J50JT5R-4w/"
+                  className="social-media-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-youtube fa-2x"></i>
+                </a>
               </li>
             </ul>
           </div>
