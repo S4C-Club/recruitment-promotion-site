@@ -6,6 +6,7 @@ function Intro() {
   return (
     <div className="intro">
       <Header />
+
       <h1 className="bigTitle">S4C</h1>
       <h1 className="introTitle">CLB TRUYỀN THÔNG & KĨ NĂNG MỀM</h1>
       <h3 className="subTitle">
