@@ -1,7 +1,6 @@
 .intro {
-<<<<<<< HEAD
   position: relative; /* This protects the inner element from being blurred */
-  background-image: url("../assests/intro.jpg");
+  background-image: url("../assests/intro.png");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -14,23 +13,6 @@
   box-shadow: inset 0px 0px 0px 999px rgba(0, 0, 0, 0.6);
   filter: grayscale(-1%) contrast(200%) brightness(60%);
   -webkit-filter: grayscale(0) contrast(100%);
-=======
-    position: relative; /* This protects the inner element from being blurred */
-	background-image: url("/assests/intro.jpg");
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 0px 0px 0px 300px rgba(0,0,0,0.6);
-    filter: grayscale(-1%) contrast(200%) brightness(60%);
-    -webkit-filter: grayscale(0) contrast(100%);
-    
-    
->>>>>>> origin/feature-aboutus
 }
 
 .bigTitle {

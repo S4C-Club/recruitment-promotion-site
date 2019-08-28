@@ -1,10 +1,6 @@
 @font-face {
   font-family: "Utm Aptima";
-<<<<<<< HEAD
   src: url("./assests/fonts/utm-aptima.ttf");
-=======
-  src: url("/assests/fonts/utm-aptima.ttf");
->>>>>>> origin/feature-aboutus
 }
 
 body {
@@ -23,12 +19,8 @@ code {
     monospace;
 }
 
-<<<<<<< HEAD
 
 p {
   margin: 0;
   padding: 0;
 }
-=======
-  
->>>>>>> origin/feature-aboutus
