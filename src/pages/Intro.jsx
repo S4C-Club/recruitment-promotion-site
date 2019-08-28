@@ -15,7 +15,7 @@ function Intro() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Đăng ký
+        Đăng ký ngay
       </a>
     </div>
   );
