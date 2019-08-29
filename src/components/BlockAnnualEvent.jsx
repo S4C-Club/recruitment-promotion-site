@@ -8,12 +8,15 @@ import Modal4 from './Modal4';
 export default class BlockAnnualEvent extends Component {
     render() {
         return (
-            <div >
-                <div class="box"><Modal1/></div>       
-                <div class="box"><Modal2/></div>
-                <div class="box"><Modal3/></div>
-                <div class="box"><Modal4/></div>
-            </div>
+            <div className="container">
+  <div className="row">
+    <div className=" box"><Modal1/></div>
+    <div className=" box"><Modal2/></div>
+    <div className="w-100"></div>
+    <div className=" box"><Modal3/></div>
+    <div className=" box"><Modal4/></div>
+  </div>
+</div>
             
         )
     }

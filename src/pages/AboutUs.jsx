@@ -5,8 +5,10 @@ import BlockAboutUs from '../components/BlockAboutUs';
 export default class AboutUs extends Component {
     render() {
         return (
-            <div>
+            <div className = "container">
                 <BlockAboutUs/>
+                <h2 className = "description">Other Events</h2>
+                <hr/>
                 <BlockAnnualEvent/>                
             </div>
         )

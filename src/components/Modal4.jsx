@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import img from "../assests/aiesec.png";
 
 export default class Modal4 extends Component {
     render() {
@@ -7,7 +8,7 @@ export default class Modal4 extends Component {
         <div>
             <div class = "position-relative">
                 <button type="button" className="btn btn-secondary btn-sm position-absolute" data-toggle="modal" data-target="#myModal4">Read More</button> 
-                 <img src = "/assests/aiesec.png.jpg" class="img-fluid" id="img" alt="Responsive image" />
+                 <img src = {img} class="img-fluid" id="img" alt="Responsive image" />
 
              </div>
   
@@ -19,7 +20,7 @@ export default class Modal4 extends Component {
              <h4 className="modal-title">Nổi bật cần chiến thuật</h4>
         </div>
         <div className="modal-body">
-          <img src="/assests/aiesec.png.jpg" class="img-fluid" alt="Responsive image"/>
+          <img src= {img} class="img-fluid" alt="Responsive image"/>
         </div>
         <div className="modal-footer">
           <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>

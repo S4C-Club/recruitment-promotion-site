@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Header";
+import Slicker from "./Slicker";
 
 export default class BlockAboutUs extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class BlockAboutUs extends Component {
             </p>
           </div>
         </div>
+        <Slicker/>
       </div>
     );
   }
