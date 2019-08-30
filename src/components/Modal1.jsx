@@ -13,19 +13,20 @@ export default class ImageComponent extends Component {
     return (
       <div>
         <div class="position-relative">
-          <button
+          {/* <button
             type="button"
             className="btn btn-secondary btn-sm position-absolute"
-            data-toggle="modal"
-            data-target="#myModal"
+            
           >
             Read More
-          </button>
+          </button> */}
           <img
             src={img}
             class="img-fluid"
             id="img"
             alt="Responsive"
+            data-toggle="modal"
+            data-target="#myModal"
           />
         </div>
 

@@ -6,19 +6,13 @@ export default class Modal2 extends Component {
     return (
       <div>
         <div class="position-relative">
-          <button
-            type="button"
-            className="btn btn-secondary btn-sm position-absolute"
-            data-toggle="modal"
-            data-target="#myModal2"
-          >
-            Read More
-          </button>
           <img
             src={img}
             class="img-fluid"
             id="img"
             alt="Responsive"
+            data-toggle="modal"
+            data-target="#myModal2"
           />
         </div>
 
