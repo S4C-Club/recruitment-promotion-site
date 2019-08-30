@@ -3,6 +3,7 @@ import './styles/style.css';
 import Intro from './pages/Intro';
 import Welcome from './pages/Welcome';
 import Footer from './pages/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <Intro />
       <AboutUs/> */}
+      <Header/>
       <Intro />
       <Welcome />
       <Footer />
