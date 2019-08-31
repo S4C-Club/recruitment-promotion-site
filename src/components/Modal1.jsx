@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img from "../assests/smtt.png";
+import img from "../assests/smtt.jpg";
 
 export default class ImageComponent extends Component {
   state = { isOpen: false };

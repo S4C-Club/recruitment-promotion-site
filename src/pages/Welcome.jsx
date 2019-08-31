@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/welcome.css";
+import Counter from "../components/Counter";
 
 function Welcome() {
   return (
@@ -14,6 +15,7 @@ function Welcome() {
         allowfullscreen
         title="welcome-to-s4c"
       ></iframe>
+      <Counter />
     </div>
   );
 }

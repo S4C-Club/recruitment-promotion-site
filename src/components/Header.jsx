@@ -1,23 +1,62 @@
 import React, { Component } from "react";
 import "../styles/header.css";
 import logo from "../assests/white-logo.png";
+
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller
+} from "react-scroll";
+
 function Header() {
   return (
     <nav>
-      <a href="/" className="nav-link">
-        TRANG CHỦ
-      </a>
-      <a href="/" className="nav-link">
-        {" "}
-        S4C CLUB
-      </a>
+      <Link
+        activeClass="active"
+        className="nav-link"
+        to="test1"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        Trang chủ
+      </Link>
+
+      <Link
+        activeClass="active"
+        className="nav-link"
+        to="welcome"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        S4C Club
+      </Link>
       <img src={logo} id="logo"></img>
-      <a href="/" className="nav-link">
-        TUYỂN THÀNH VIÊN
-      </a>
-      <a href="/" className="nav-link">
-        LIÊN HỆ
-      </a>
+      <Link
+        activeClass="active"
+        className="nav-link"
+        to="recruitment"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        Tuyển Thành Viên
+      </Link>
+
+      <Link
+        activeClass="active"
+        className="nav-link"
+        to="footer"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        Liên Hệ
+      </Link>
     </nav>
   );
 }

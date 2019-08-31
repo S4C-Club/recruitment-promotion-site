@@ -1,6 +1,6 @@
 .intro {
   position: relative; /* This protects the inner element from being blurred */
-  background-image: url("../assests/intro.png");
+  background-image: url("../assests/intro.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -52,4 +52,17 @@
   background-color: #fff;
   color: #222;
   opacity: 0.9;
+}
+
+.number-count-down {
+  font-size: 60px;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: 0.3em;
+}
+
+.counter-render {
+  color: #fff;
 }

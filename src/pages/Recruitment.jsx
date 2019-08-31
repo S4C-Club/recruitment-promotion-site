@@ -7,7 +7,7 @@ import LazyLoad from "react-lazyload";
 
 function Recruitment() {
   return (
-    <div className="recruitment">
+    <div id="recruiment" className="recruitment">
       <div className="row recruitment-concept">
         <div className="col-md-12 text-center marb-35">
           <h1 className="title">Tuyển thành viên 2019</h1>
