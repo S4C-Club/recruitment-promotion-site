@@ -6,7 +6,12 @@ import Footer from './pages/Footer';
 import AboutUs from './pages/AboutUs';
 import Recruitment from './pages/Recruitment';
 import Tab from './components/Tab';
+<<<<<<< HEAD
 import Counter from './components/Counter';
+=======
+import BigGame from './pages/BigGame';
+import Header from './components/Header';
+>>>>>>> origin/biggame-feature
 function App() {
   return (
     <div className="app">
@@ -15,11 +20,13 @@ function App() {
       </header>
       <Intro />
       <AboutUs/> */}
+      <Header/>
       <Intro />
       <Welcome />
       <hr/>
       <Counter />
       <Recruitment />
+      <BigGame/>
       <Tab/>
       <AboutUs/>
       

@@ -13,7 +13,7 @@ import {
 
 function Header() {
   return (
-    <nav>
+    <div className="navbar-header">
       <Link
         activeClass="active"
         className="nav-link"
@@ -35,7 +35,7 @@ function Header() {
       >
         S4C Club
       </Link>
-      <img src={logo} id="logo"></img>
+      <a href="/"><img src={logo} id="logo"></img></a>
       <Link
         activeClass="active"
         className="nav-link"
@@ -57,7 +57,7 @@ function Header() {
       >
         Liên Hệ
       </Link>
-    </nav>
+    </div>
   );
 }
 

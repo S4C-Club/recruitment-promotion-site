@@ -6,25 +6,34 @@ body {
 body {
   margin: 0;
 }
-
-nav {
+.navbar-header {
+  position: fixed;
+  background-color: black;
+  top: 0;
   display: flex !important;
   width: 100%;
-  position: fixed;
-  top: 0;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
+
 
 .wrapper-shadow {
   z-index: 4;
   background-image: linear-gradient(to bottom, #00000024, transparent);
 }
 
-.nav-link {
+.navbar-header a {
   text-decoration: none;
   color: #fff !important;
   margin: 0 40px;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 #logo {
