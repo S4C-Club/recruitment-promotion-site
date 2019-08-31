@@ -5,6 +5,7 @@ import Welcome from './pages/Welcome';
 import Footer from './pages/Footer';
 import AboutUs from './pages/AboutUs';
 import Recruitment from './pages/Recruitment';
+import Tab from './components/Tab';
 function App() {
   return (
     <div className="app">
@@ -17,6 +18,7 @@ function App() {
       <Welcome />
       <Recruitment />
       <AboutUs/>
+      <Tab/>
       <Footer />
        
     </div>

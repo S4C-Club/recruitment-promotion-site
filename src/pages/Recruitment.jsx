@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/recruitment.css";
 import Header from "../components/Header";
 import img from "../assests/Redline/1.jpg";
-import CountUp from "react-countup";
+ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 
 function Recruitment() {
