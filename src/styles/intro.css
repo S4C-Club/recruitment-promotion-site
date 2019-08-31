@@ -13,6 +13,7 @@
   box-shadow: inset 0px 0px 0px 999px rgba(0, 0, 0, 0.6);
   filter: grayscale(-1%) contrast(200%) brightness(60%);
   -webkit-filter: grayscale(0) contrast(100%);
+  margin-top: 100px;
 }
 
 .bigTitle {

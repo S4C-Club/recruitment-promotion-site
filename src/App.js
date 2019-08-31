@@ -6,6 +6,8 @@ import Footer from './pages/Footer';
 import AboutUs from './pages/AboutUs';
 import Recruitment from './pages/Recruitment';
 import Tab from './components/Tab';
+import BigGame from './pages/BigGame';
+import Header from './components/Header';
 function App() {
   return (
     <div className="app">
@@ -14,9 +16,11 @@ function App() {
       </header>
       <Intro />
       <AboutUs/> */}
+      <Header/>
       <Intro />
       <Welcome />
       <Recruitment />
+      <BigGame/>
       <Tab/>
       <AboutUs/>
       
