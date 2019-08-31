@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/recruitment.css";
 import Header from "../components/Header";
-import img from "../assests/Redline/1.jpg";
- import CountUp from "react-countup";
+import img from "../assests/ttv-ava.jpg";
+import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 
 function Recruitment() {
   return (
     <div className="recruitment">
-      <div className="row">
+      <div className="row recruitment-concept">
         <div className="col-md-12 text-center marb-35">
           <h1 className="title">Tuyển thành viên 2019</h1>
         </div>
@@ -18,67 +18,29 @@ function Recruitment() {
             <div className="about-info">
               <h2 className="heading">The Red Maker</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
-                impedit inventore culpa vero accusamus in nostrum dignissimos
-                modi, molestiae. Autem iusto esse necessitatibus ex corporis
-                earum quaerat voluptates quibusdam dicta!
+                ♦️ Ai đó đã từng nói “Cuộc sống không phải là hành trình bạn
+                kiếm tìm bản thân mình mà nó chỉ bắt đầu khi bạn tự tạo ra thế
+                giới của riêng mình”. Cuộc sống là một cuộc phiêu lưu đầy bất
+                ngờ và kỳ thú để kiến tạo nên bản sắc của cá nhân nhưng không
+                phải ai cũng có đủ dũng khí để dấn thân vào chuyến du hành đầy
+                thách thức đó. Hãy nhớ bạn là ai không quan trọng, quan trọng là
+                bạn dám viết nên câu chuyện của chính mình!
+                <br></br>
+                ♦️ Đó cũng là tôn chỉ của các Red Makers - những nghệ sĩ luôn
+                khát khao, nung nấu trong mình Red Dream - ước mơ viết nên bản
+                nhạc của riêng mình. Bản nhạc Red Song chỉ được cất lên khi
+                người nghệ sĩ dưới sân khấu viết ra những Red Notes và sắp xếp
+                chúng một cách điêu luyện vào các khuông nhạc trống, để rồi đến
+                cuối con đường cùng thưởng thức bản hòa ca đậm sắc “đỏ” của
+                riêng mình.
               </p>
             </div>
           </div>
           <div className="col-md-6 col-sm-6">
-            <img
-              src={img}
-              alt=""
-              className="img-responsive"
-              style={{ width: "100%" }}
-            />
+            <img src={img} alt="" className="ttv-ava" />
           </div>
         </div>
         <div class="col-md-1"></div>
-      </div>
-
-      <div id="fh5co-counter" className="fh5co-counters">
-        <div className="row">
-          <div className="col-md-6 col-md-offset-3 text-center animate-box">
-            <p>
-              We have a fun facts far far away, behind the word mountains, far
-              from the countries Vokalia and Consonantia, there live the blind
-              texts.
-            </p>
-          </div>
-        </div>
-        <div className="row animate-box">
-          <div className="col-md-8 col-md-offset-2">
-            <div className="row">
-              <div className="col-md-3 col-sm-6 col-xs-6 text-center">
-                <LazyLoad>
-                  <CountUp end={68} duration={5} />
-                </LazyLoad>
-
-                <span className="">Members</span>
-              </div>
-              <div className="col-md-3 col-sm-6 col-xs-6 text-center">
-                <LazyLoad>
-                  <CountUp end={68} duration={5} />
-                </LazyLoad>
-                <span className="">Ministries</span>
-              </div>
-              <div className="clearfix visible-sm-block visible-xs-block"></div>
-              <div className="col-md-3 col-sm-6 col-xs-6 text-center">
-                <LazyLoad>
-                  <CountUp end={68} duration={5} />
-                </LazyLoad>
-                <span className="">Classes</span>
-              </div>
-              <div className="col-md-3 col-sm-6 col-xs-6 text-center">
-                <LazyLoad>
-                  <CountUp end={68} duration={5} />
-                </LazyLoad>
-                <span className="">Activities</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

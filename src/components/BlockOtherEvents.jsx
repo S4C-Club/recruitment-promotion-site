@@ -5,10 +5,11 @@ import Modal2 from "./Modal2";
 import Modal3 from "./Modal3";
 import Modal4 from "./Modal4";
 
-export default class BlockAnnualEvent extends Component {
+export default class BlockOtherEvents extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container other-events">
+        <h2 className="title">Những sự kiện khác</h2>
         <div className="row">
           <div className=" box">
             <Modal1 />

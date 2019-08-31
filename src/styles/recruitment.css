@@ -1,6 +1,6 @@
 .recruitment {
-
-  background-color: #8e1214;
+  background-color: #04090c;
+  color: #fff;
   display: block;
   position: relative;
   width: 100%;
@@ -8,4 +8,13 @@
   padding: 0;
   text-align: center;
   word-wrap: break-word;
+}
+
+.recruitment-concept {
+  padding: 60px 0;
+  height: 100vh;
+}
+
+.ttv-ava {
+  width: 80%;
 }
