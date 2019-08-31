@@ -2,16 +2,30 @@
   "name": "recruitment-promotion-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://s4c.club",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "gh-pages": "^2.1.1",
+    "path": "^0.12.7",
     "react": "^16.9.0",
+    "react-countup": "^4.2.2",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-id-swiper": "^2.3.2",
+    "react-lazyload": "^2.6.2",
+    "react-scripts": "3.1.1",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^4.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

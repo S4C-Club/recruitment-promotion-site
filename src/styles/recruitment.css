@@ -1,0 +1,56 @@
+.recruitment {
+
+  background-color: #8e1214;
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  word-wrap: break-word;
+}
+.col-md-3 {
+    background-color: yellowgreen;
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    
+}
+
+.col-sm-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-xs-6 {
+  float: left;
+}
+
+.counter {
+  font-size: 40px;
+    display: block;
+    color: black;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: .3em;
+    font-family: "Libre Baskerville", serif;
+}
+
+.counter-label {
+  font-size: 12px;
+    margin-bottom: 2em;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: gray;
+}
+
+.text-center {
+  text-align: center;
+}

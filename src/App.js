@@ -3,8 +3,9 @@ import './styles/style.css';
 import Intro from './pages/Intro';
 import Welcome from './pages/Welcome';
 import Footer from './pages/Footer';
+import AboutUs from './pages/AboutUs';
+import Recruitment from './pages/Recruitment';
 import Header from './components/Header';
-
 function App() {
   return (
     <div className="app">
@@ -16,7 +17,10 @@ function App() {
       <Header/>
       <Intro />
       <Welcome />
+      <Recruitment />
+      <AboutUs/>
       <Footer />
+       
     </div>
   );
 }
