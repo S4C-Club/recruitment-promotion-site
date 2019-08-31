@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex !important;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-shadow {
+  z-index: 4;
+  background-image: linear-gradient(to bottom, #00000024, transparent);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 40px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}

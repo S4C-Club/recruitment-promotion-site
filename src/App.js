@@ -3,7 +3,9 @@ import './styles/style.css';
 import Intro from './pages/Intro';
 import Welcome from './pages/Welcome';
 import Footer from './pages/Footer';
-
+import AboutUs from './pages/AboutUs';
+import Recruitment from './pages/Recruitment';
+import Tab from './components/Tab';
 function App() {
   return (
     <div className="app">
@@ -14,7 +16,12 @@ function App() {
       <AboutUs/> */}
       <Intro />
       <Welcome />
+      <Recruitment />
+      <Tab/>
+      <AboutUs/>
+      
       <Footer />
+       
     </div>
   );
 }

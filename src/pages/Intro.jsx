@@ -1,9 +1,12 @@
 import React from "react";
 import "../styles/intro.css";
+import Header from "../components/Header";
 
 function Intro() {
   return (
     <div className="intro">
+      <Header />
+
       <h1 className="bigTitle">S4C</h1>
       <h1 className="introTitle">CLB TRUYỀN THÔNG & KĨ NĂNG MỀM</h1>
       <h3 className="subTitle">
@@ -15,7 +18,7 @@ function Intro() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Đăng ký
+        Đăng ký ngay
       </a>
     </div>
   );

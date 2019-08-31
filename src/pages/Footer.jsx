@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="top-footer">
-        <div className="container">
+        <div className="footer-container">
           <div className="about-s4c">
             <img src={logo} alt="logo" className="logo" />
             <p>
