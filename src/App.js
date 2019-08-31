@@ -6,6 +6,7 @@ import Footer from './pages/Footer';
 import AboutUs from './pages/AboutUs';
 import Recruitment from './pages/Recruitment';
 import Tab from './components/Tab';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="app">
@@ -16,6 +17,8 @@ function App() {
       <AboutUs/> */}
       <Intro />
       <Welcome />
+      <hr/>
+      <Counter />
       <Recruitment />
       <Tab/>
       <AboutUs/>

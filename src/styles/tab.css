@@ -30,7 +30,7 @@ h3 {
 .vertical-tab .nav-tabs li a {
   color: #303030;
   background-color: #e7e7e7;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
@@ -81,7 +81,7 @@ h3 {
 .vertical-tab .tab-content {
   color: #fff;
   background: #303030;
-  font-size: 15px;
+  font-size: 1.5rem;
   text-align: justify;
   line-height: 23px;
   vertical-align: top;
@@ -89,7 +89,7 @@ h3 {
   display: table-cell;
 }
 .vertical-tab .tab-content h3 {
-  font-size: 24px;
+  font-size: 2.4rem;
   margin: 0 0 5px 0;
 }
 @media only screen and (max-width: 479px) {
@@ -108,6 +108,6 @@ h3 {
     border-radius: 0 0 10px 10px;
   }
   .vertical-tab .tab-content h3 {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
