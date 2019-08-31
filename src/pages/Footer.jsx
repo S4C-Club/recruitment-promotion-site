@@ -4,7 +4,7 @@ import logo from "../assests/logo.png";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div id="footer" className="footer">
       <div className="top-footer">
         <div className="footer-container">
           <div className="about-s4c">

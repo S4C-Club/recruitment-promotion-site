@@ -18,3 +18,23 @@
 .ttv-ava {
   width: 80%;
 }
+.number-count-up {
+  font-size: 40px;
+  display: block;
+  color: black;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: 0.3em;
+}
+
+
+
+.counter-tag {
+  font-size: 12px;
+  margin-bottom: 2em;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: inherit
+}

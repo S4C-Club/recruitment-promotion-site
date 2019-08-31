@@ -53,3 +53,16 @@
   color: #222;
   opacity: 0.9;
 }
+
+.number-count-down {
+  font-size: 60px;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: 0.3em;
+}
+
+.counter-render {
+  color: #fff;
+}
