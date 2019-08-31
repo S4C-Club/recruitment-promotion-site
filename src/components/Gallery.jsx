@@ -24,10 +24,8 @@ export default class Slicker extends Component {
           <div className="col-6 offset-md-3" id="contentRedLine">
             <div className="shadow">
               <div className="content-wrapper">
-                <h2 className="description">
-                  Redline Music Party ( Annual Event )
-                </h2>
-                <p className="text-justify" id="textRedLine">
+                <h2 className="title-redline">Redline Music Party ( Annual Event )</h2>
+                <p className="text-justify textRedLine">
                   Redline Music Party: Redline Music Party là sự kiện âm nhạc
                   được tổ chức thường niên bởi CLB S4C, trải qua 4 mùa hoạt động
                   Redline Music Party đã ghi dấu tên tuổi của mình trong lòng

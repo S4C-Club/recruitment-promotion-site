@@ -5,11 +5,8 @@ h3 {
   text-align: center;
 }
 
-.description {
-  width: 100%;
-  background-color: bisque;
-  color: brown;
-  margin: 0;
+.other-events {
+  padding: 60px 0;
 }
 
 div.box {
@@ -17,7 +14,6 @@ div.box {
   clear: none;
   height: 300px;
   width: 48%;
-  border: 2px solid #808080;
   overflow: hidden;
 }
 
@@ -42,12 +38,18 @@ div.box {
   background-color: #00000085;
 }
 
-.content-wrapper {
+/* .content-wrapper {
+} */
+
+.textRedLine {
+  padding: 12px 50px 24px;
+  color: white;
+  
 }
 
-#textRedLine {
-  padding: 24px;
-  color: white;
+.title-redline {
+  padding: 12px 0;
+  color: #fff;
 }
 
 .gallery {

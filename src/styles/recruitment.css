@@ -1,6 +1,6 @@
 .recruitment {
-
-  background-color: #8e1214;
+  background-color: #04090c;
+  color: #fff;
   display: block;
   position: relative;
   width: 100%;
@@ -10,7 +10,7 @@
   word-wrap: break-word;
 }
 .col-md-3 {
-    background-color: yellowgreen;
+    background-color: rgb(250, 239, 228);
     width: 25%;
     float: left;
     position: relative;
@@ -53,4 +53,13 @@
 
 .text-center {
   text-align: center;
+}
+
+.recruitment-concept {
+  padding: 60px 0;
+  height: 100vh;
+}
+
+.ttv-ava {
+  width: 80%;
 }
