@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img from "../assests/canon.png";
+import img from "../assests/canon.jpg";
 export default class Modal3 extends Component {
   render() {
     return (
