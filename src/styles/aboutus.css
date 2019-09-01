@@ -9,12 +9,29 @@ h3 {
   padding: 60px 0;
 }
 
+.row {
+  margin: 0 auto;
+}
+
 div.box {
   margin: 0.001% 0.001% 0.001% 0.001%;
   clear: none;
   height: 300px;
-  width: 48%;
+  width: 50%;
   overflow: hidden;
+}
+
+div.box {
+  cursor: pointer;
+}
+
+.modal-open {
+  overflow: hidden;
+  padding-right: 0 !important;
+}
+
+body:not(.modal-open){
+  padding-right: 0px !important;
 }
 
 .imageBlock {

@@ -85,7 +85,7 @@ h3 {
   text-align: justify;
   line-height: 23px;
   vertical-align: top;
-  padding: 15px 18px 0;
+  padding: 15px 18px 15px;
   display: table-cell;
 }
 .vertical-tab .tab-content h3 {

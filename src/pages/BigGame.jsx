@@ -10,36 +10,34 @@ function BigGame() {
           <h1 className="title">Big Game 2019</h1>
         </div>
         <div className="col-md-1"></div>
-        <div className="col-md-10 row">
+        <div className="col-md-10 row biggame-content">
           <div className="col-md-6 col-sm-6">
             <img src={image} alt="" className="ttv-ava" />
           </div>
           <div className="col-md-6 col-sm-6">
             <div className="about-info">
               <p className="mb-1">
-                        {" "}
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br> 
-                        <br></br>
-                        <br></br>
-                        ♦️BIG GAME 2019 của CLB S4C đã chính thức quay trở lại
-                        với phiên bản “Truy tìm hồng ngọc - Finding the Beryl”.{" "}
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        ♦️Liệu các bạn đã sẵn sàng để chinh phục những thử thách
-                        chông gai, bí hiểm trước mắt? Hãy cùng S4C dấn thân vào
-                        chuyến phiêu lưu “Truy tìm hồng ngọc - Finding the
-                        Berly” ngay hôm nay.<br></br> <br></br> <br></br><br></br>
-                        <br></br>
-                        <br></br>
-                        <a className="button" target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfWUP6t3thiJMLk20WvMkAl2N5n8RUcurcdOZ1OlDn4Y6Kgsg/viewform?fbclid=IwAR1IUv0T-qF4-zI2wxuQtfID4Yi3JbG6G5cWnVrZwa-fNqZtC_ktmT__PSE">Đăng kí ngay tại đây</a>
-                      </p>
-            </div>  
+                ♦️BIG GAME 2019 của CLB S4C đã chính thức quay trở lại với phiên
+                bản “Truy tìm hồng ngọc - Finding the Beryl”. <br></br>
+                <br></br>
+                <br></br>
+                ♦️Liệu các bạn đã sẵn sàng để chinh phục những thử thách chông
+                gai, bí hiểm trước mắt? Hãy cùng S4C dấn thân vào chuyến phiêu
+                lưu “Truy tìm hồng ngọc - Finding the Berly” ngay hôm nay.
+                <br></br> <br></br> <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <a
+                  className="button"
+                  target="blank"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfWUP6t3thiJMLk20WvMkAl2N5n8RUcurcdOZ1OlDn4Y6Kgsg/viewform?fbclid=IwAR1IUv0T-qF4-zI2wxuQtfID4Yi3JbG6G5cWnVrZwa-fNqZtC_ktmT__PSE"
+                >
+                  Đăng kí ngay tại đây
+                </a>
+              </p>
+            </div>
           </div>
-          
         </div>
         <div class="col-md-1"></div>
       </div>

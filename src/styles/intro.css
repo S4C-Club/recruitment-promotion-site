@@ -13,7 +13,6 @@
   box-shadow: inset 0px 0px 0px 999px rgba(0, 0, 0, 0.6);
   filter: grayscale(-1%) contrast(200%) brightness(60%);
   -webkit-filter: grayscale(0) contrast(100%);
-  margin-top: 100px;
 }
 
 .bigTitle {
@@ -26,6 +25,7 @@
   color: #fff;
   margin: 0;
   font-size: 4.5rem;
+  text-align: center;
 }
 
 .subTitle {
@@ -66,4 +66,21 @@
 
 .counter-render {
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .bigTitle {
+    font-size: 7rem;
+  }
+  .introTitle {
+    font-size: 2.5rem;
+  }
+
+  .intro {
+    margin-top: 7rem;
+  }
+
+  iframe {
+    width: 100%;
+  }
 }

@@ -22,7 +22,7 @@ export default class Slicker extends Component {
     return (
       <div className="gallery">
         <div className="row gallery-info">
-          <div className="col-6 offset-md-3" id="contentRedLine">
+          <div className="col-md-6 offset-md-3" id="contentRedLine">
             <div className="shadow">
               <div className="content-wrapper">
                 <h2 className="title-redline">

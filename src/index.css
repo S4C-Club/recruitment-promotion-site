@@ -28,9 +28,10 @@ a {
   color: inherit;
 }
 
-a:hover {
+.navLink:hover {
   text-decoration: none !important;
-  color: inherit !important;
+  color: #fff;
+  border-bottom: 2px solid #fff;
 }
 
 p {

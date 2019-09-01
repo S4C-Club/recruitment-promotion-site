@@ -19,10 +19,10 @@ export default class Modal3 extends Component {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
+                <h4 className="modal-title">Canon Photo Marathon</h4>
                 <button type="button" className="close" data-dismiss="modal">
                   &times;
                 </button>
-                <h4 className="modal-title">Canon Photo Marathon</h4>
               </div>
               <div className="modal-body">
                 <img src={img} class="img-fluid" alt="Responsive image" />
