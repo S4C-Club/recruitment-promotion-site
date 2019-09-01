@@ -1,0 +1,60 @@
+.biggame {
+    background-color: #04090c;
+    color: #fff;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  
+  .biggame-concept {
+    padding: 60px 0;
+  }
+  
+  .biggame-ava {
+    width: 80%;
+  }
+  .number-count-up {
+    font-size: 40px;
+    display: block;
+    color: black;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+  }
+  
+  
+  
+  .counter-tag {
+    font-size: 12px;
+    margin-bottom: 2em;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: inherit
+  }
+
+.button {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 30px !important;
+    border: none;
+    background: #005293 ;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
+
+
+
+  
+  

@@ -4,10 +4,10 @@ import logo from "../assests/logo.png";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div id="footer" className="footer">
       <div className="top-footer">
-        <div className="footer-container">
-          <div className="about-s4c">
+        <div className="footer-container row">
+          <div className="col-sm about-s4c">
             <img src={logo} alt="logo" className="logo" />
             <p>
               CLB S4C được thành lập với mục tiêu tạo một môi trường năng động
@@ -16,7 +16,7 @@ function Footer() {
               kiện và truyền thông.
             </p>
           </div>
-          <div className="contact">
+          <div className="col-sm contact footer-item">
             <h3 className="footer-title">Liên hệ</h3>
             <ul className="contact-list list">
               <li className="contact-item">
@@ -35,7 +35,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="social-media">
+          <div className="col-sm social-media footer-item">
             <ul className="list social-media-list">
               <li className="social-media-item">
                 <a

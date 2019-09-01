@@ -16,6 +16,7 @@ export default class Tab extends Component {
                     aria-controls="profile"
                     role="tab"
                     data-toggle="tab"
+                    class="active"
                   >
                     QUYỀN LỢI
                   </a>
@@ -50,16 +51,7 @@ export default class Tab extends Component {
                     CÁCH THỨC ĐĂNG KÝ
                   </a>
                 </li>
-                <li role="presentation">
-                  <a
-                    href="#Section6"
-                    aria-controls="messages"
-                    role="tab"
-                    data-toggle="tab"
-                  >
-                    Big Game
-                  </a>
-                </li>
+                
               </ul>
               <div className="tab-content tabs">
                 <div role="tabpanel" className="tab-pane fade" id="Section2">
@@ -92,15 +84,7 @@ export default class Tab extends Component {
                     -Có một gia đình mới để yêu thương và lưu giữ những khoảnh
                     khắc đáng nhớ thời đại học.
                   </p>
-                  <p>
-                    -Có một gia đình mới để yêu thương và lưu giữ những khoảnh
-                    khắc đáng nhớ thời đại học.
-                  </p>
-
-                  <p>
-                    -Có một gia đình mới để yêu thương và lưu giữ những khoảnh
-                    khắc đáng nhớ thời đại học.
-                  </p>
+                  
                 </div>
                 <div role="tabpanel" className="tab-pane fade" id="Section3">
                   <h3 className="tab-title">Ban truyền thông: </h3>
@@ -190,36 +174,7 @@ export default class Tab extends Component {
                     Đăng ký ngay tại đây
                   </a>
                 </div>
-                <div role="tabpanel" className="tab-pane fade " id="Section6">
-                  <div className="media">
-                    <img
-                      className="align-self-center mr-3"
-                      src={image}
-                      alt="Generic placeholder image"
-                      style={{ width: "50%" }}
-                    />
-
-                    <div className="media-body">
-                      <h5 className="mt-0">Big Game</h5>
-                      <p className="mb-1">
-                        {" "}
-                        <br></br> <br></br> <br></br>
-                        ♦️BIG GAME 2019 của CLB S4C đã chính thức quay trở lại
-                        với phiên bản “Truy tìm hồng ngọc - Finding the Beryl”.{" "}
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        ♦️Liệu các bạn đã sẵn sàng để chinh phục những thử thách
-                        chông gai, bí hiểm trước mắt? Hãy cùng S4C dấn thân vào
-                        chuyến phiêu lưu “Truy tìm hồng ngọc - Finding the
-                        Berly” ngay hôm nay.<br></br> <br></br> <br></br>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWUP6t3thiJMLk20WvMkAl2N5n8RUcurcdOZ1OlDn4Y6Kgsg/viewform?fbclid=IwAR1IUv0T-qF4-zI2wxuQtfID4Yi3JbG6G5cWnVrZwa-fNqZtC_ktmT__PSE">
-                          Đăng ký ngay tại đây
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>

@@ -12,19 +12,22 @@ import img4 from "../assests/Redline/4.jpg";
 export default class Slicker extends Component {
   render() {
     const params = {
-      effect: "fade"
-      // autoplay: {
-      //   delay: 5000,
-      //   disableOnInteraction: true
-      // }
+      effect: "fade",
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: true
+      },
+      loop: true
     };
     return (
       <div className="gallery">
         <div className="row gallery-info">
-          <div className="col-6 offset-md-3" id="contentRedLine">
+          <div className="col-md-6 offset-md-3" id="contentRedLine">
             <div className="shadow">
               <div className="content-wrapper">
-                <h2 className="title-redline">Redline Music Party ( Annual Event )</h2>
+                <h2 className="title-redline">
+                  Redline Music Party ( Annual Event )
+                </h2>
                 <p className="text-justify textRedLine">
                   Redline Music Party: Redline Music Party là sự kiện âm nhạc
                   được tổ chức thường niên bởi CLB S4C, trải qua 4 mùa hoạt động

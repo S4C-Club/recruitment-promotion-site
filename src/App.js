@@ -6,6 +6,9 @@ import Footer from './pages/Footer';
 import AboutUs from './pages/AboutUs';
 import Recruitment from './pages/Recruitment';
 import Tab from './components/Tab';
+import BigGame from './pages/BigGame';
+import Header from './components/Header';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="app">
@@ -14,9 +17,13 @@ function App() {
       </header>
       <Intro />
       <AboutUs/> */}
+      <Header/>
       <Intro />
       <Welcome />
+      <hr/>
+      <Counter />
       <Recruitment />
+      <BigGame/>
       <Tab/>
       <AboutUs/>
       

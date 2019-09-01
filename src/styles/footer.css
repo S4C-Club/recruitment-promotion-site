@@ -7,13 +7,13 @@
 
 .footer-container {
   padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
+  padding-left: 30px;
+  /* margin-right: auto;
   margin-left: auto;
   width: 1200px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-gap: 50px;
+  grid-gap: 50px; */
   color: #fff;
 }
 
@@ -29,6 +29,7 @@
 
 .social-media-list {
   display: flex;
+  justify-content: center;
 }
 
 .social-media-item {
@@ -68,7 +69,17 @@
 }
 
 .bottom-footer .containter {
-    width: 1200px;
-    color: #fff;
-    margin: 0 auto;
+  color: #fff;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+
+.footer-item {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .bottom-footer .containter {
+    text-align: center;
+  }
 }

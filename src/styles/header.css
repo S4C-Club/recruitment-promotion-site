@@ -1,19 +1,14 @@
-html,
-body {
-  height: 100%;
-}
 
-body {
-  margin: 0;
-}
-
-nav {
+.navbar-header {
+  padding: 0 !important;
+  /* position: fixed; */
+  background-color: black;
+  /* top: 0;
   display: flex !important;
   width: 100%;
-  position: fixed;
-  top: 0;
   align-items: center;
   justify-content: center;
+  z-index: 10;  */
 }
 
 .wrapper-shadow {
@@ -21,13 +16,28 @@ nav {
   background-image: linear-gradient(to bottom, #00000024, transparent);
 }
 
-.nav-link {
+.navbar-header-ul {
+  margin: 0 auto;
+}
+
+.navLink {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  height: 100%;
+}
+
+.navbar-header a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff !important;
   margin: 0 40px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 #logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }

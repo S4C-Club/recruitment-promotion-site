@@ -1,6 +1,6 @@
 .intro {
   position: relative; /* This protects the inner element from being blurred */
-  background-image: url("../assests/intro.png");
+  background-image: url("../assests/intro.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -18,19 +18,20 @@
 .bigTitle {
   margin: 0;
   color: #fff;
-  font-size: 100px;
+  font-size: 10rem;
 }
 
 .introTitle {
   color: #fff;
   margin: 0;
-  font-size: 2.5em;
+  font-size: 4.5rem;
+  text-align: center;
 }
 
 .subTitle {
   color: #fff;
-  font-size: 1rem;
-  margin: 20px 0;
+  font-size: 1.6rem;
+  margin-top: 20px;
 }
 
 .register-button {
@@ -52,4 +53,34 @@
   background-color: #fff;
   color: #222;
   opacity: 0.9;
+}
+
+.number-count-down {
+  font-size: 6rem;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: 0.3em;
+}
+
+.counter-render {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .bigTitle {
+    font-size: 7rem;
+  }
+  .introTitle {
+    font-size: 2.5rem;
+  }
+
+  .intro {
+    margin-top: 7rem;
+  }
+
+  iframe {
+    width: 100%;
+  }
 }

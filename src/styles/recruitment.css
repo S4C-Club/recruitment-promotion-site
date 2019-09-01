@@ -12,9 +12,44 @@
 
 .recruitment-concept {
   padding: 60px 0;
-  height: 100vh;
+}
+
+.recruitment-content,
+.biggame-content {
+  margin: 0 auto !important;
 }
 
 .ttv-ava {
   width: 80%;
+}
+.number-count-up {
+  font-size: 5rem;
+  display: block;
+  color: black;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: 0.3em;
+}
+
+.counter-tag {
+  font-size: 1.2rem;
+  margin-bottom: 2em;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: inherit;
+}
+
+.counter-item {
+  padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+  .about-info {
+    margin-top: 3rem;
+  }
+  .recruitment-content {
+    flex-direction: column-reverse;
+  }
 }

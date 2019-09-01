@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img from "../assests/smtt.png";
+import img from "../assests/smtt.jpg";
 
 export default class ImageComponent extends Component {
   state = { isOpen: false };
@@ -13,13 +13,6 @@ export default class ImageComponent extends Component {
     return (
       <div>
         <div class="position-relative">
-          {/* <button
-            type="button"
-            className="btn btn-secondary btn-sm position-absolute"
-            
-          >
-            Read More
-          </button> */}
           <img
             src={img}
             class="img-fluid"
@@ -34,17 +27,13 @@ export default class ImageComponent extends Component {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
+                <h4 className="modal-title">Sắc màu tuổi thơ</h4>
                 <button type="button" className="close" data-dismiss="modal">
                   &times;
                 </button>
-                <h4 className="modal-title">Sắc màu tuổi thơ</h4>
               </div>
               <div className="modal-body">
-                <img
-                  src={img}
-                  class="img-fluid"
-                  alt="Responsive"
-                />
+                <img src={img} class="img-fluid" alt="Responsive" />
               </div>
               <div className="modal-footer">
                 <button

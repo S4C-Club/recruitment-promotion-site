@@ -11,17 +11,17 @@ export default class BlockOtherEvents extends Component {
       <div className="container other-events">
         <h2 className="title">Những sự kiện khác</h2>
         <div className="row">
-          <div className=" box">
+          <div className="box">
             <Modal1 />
           </div>
-          <div className=" box">
+          <div className="box">
             <Modal2 />
           </div>
           <div className="w-100"></div>
-          <div className=" box">
+          <div className="box">
             <Modal3 />
           </div>
-          <div className=" box">
+          <div className="box">
             <Modal4 />
           </div>
         </div>

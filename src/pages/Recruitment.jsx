@@ -7,16 +7,19 @@ import LazyLoad from "react-lazyload";
 
 function Recruitment() {
   return (
-    <div className="recruitment">
+    <div id="recruiment" className="recruitment">
       <div className="row recruitment-concept">
         <div className="col-md-12 text-center marb-35">
           <h1 className="title">Tuyển thành viên 2019</h1>
+          <br></br>
         </div>
-        <div className="col-md-1"></div>
-        <div className="col-md-10 row">
+
+        <div className="col-md-10 row recruitment-content ">
           <div className="col-md-6 col-sm-6">
             <div className="about-info">
               <h2 className="heading">The Red Maker</h2>
+              <br></br>
+              <br></br>
               <p>
                 ♦️ Ai đó đã từng nói “Cuộc sống không phải là hành trình bạn
                 kiếm tìm bản thân mình mà nó chỉ bắt đầu khi bạn tự tạo ra thế
@@ -40,7 +43,6 @@ function Recruitment() {
             <img src={img} alt="" className="ttv-ava" />
           </div>
         </div>
-        <div class="col-md-1"></div>
       </div>
     </div>
   );

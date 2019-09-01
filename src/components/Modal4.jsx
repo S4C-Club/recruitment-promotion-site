@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img from "../assests/aiesec.png";
+import img from "../assests/aiesec.jpg";
 
 export default class Modal4 extends Component {
   render() {
@@ -20,13 +20,14 @@ export default class Modal4 extends Component {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
+              <h4 className="modal-title">Nổi bật cần chiến thuật</h4>
                 <button type="button" className="close" data-dismiss="modal">
                   &times;
                 </button>
-                <h4 className="modal-title">Nổi bật cần chiến thuật</h4>
+                
               </div>
               <div className="modal-body">
-                <img src={img} class="img-fluid" alt="Responsive image" />
+                <img src={img} class="img-fluid" alt="Responsive" />
               </div>
               <div className="modal-footer">
                 <button
