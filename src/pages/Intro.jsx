@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "../styles/intro.css";
 import Header from "../components/Header";
 import Countdown from "react-countdown-now";
+import { Event } from "../components/Tracking";
 
 function Intro() {
   const renderer = ({ days, hours, minutes, seconds }) => {
@@ -46,6 +47,7 @@ function Intro() {
         className="register-button"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => Event("User", "Sign Up for S4C", "SIGN_UP_S4C")}
       >
         Đăng ký ngay!
       </a>
