@@ -39,7 +39,7 @@ function Footer() {
             <ul className="list social-media-list">
               <li className="social-media-item">
                 <a
-                  href="https://www.facebook.com/S4C.club/"
+                  href="https://www.facebook.com/s4c.tuyenthanhvien/"
                   className="social-media-link"
                   target="_blank"
                   rel="noopener noreferrer"
