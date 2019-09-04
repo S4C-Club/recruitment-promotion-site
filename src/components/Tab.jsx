@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/tab.css";
-import image from "../assests/biggameposter.jpg";
+import { Event } from "../components/Tracking/index";
 export default class Tab extends Component {
   render() {
     return (

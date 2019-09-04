@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
 import "../styles/intro.css";
-import Header from "../components/Header";
 import Countdown from "react-countdown-now";
-import { Event } from "../components/Tracking";
+import { Event } from "../components/Tracking/index";
 
 function Intro() {
   const renderer = ({ days, hours, minutes, seconds }) => {
@@ -34,7 +33,7 @@ function Intro() {
   return (
     <div id="intro" className="intro">
       <h1 className="bigTitle">S4C</h1>
-      <h1 className="introTitle">CLB TRUYỀN THÔNG & KĨ NĂNG MỀM</h1>
+      <h1 className="introTitle">CLB TRUYỀN THÔNG & KỸ NĂNG MỀM</h1>
       <h3 className="subTitle">
         Đợt tuyển thành viên duy nhất trong năm 2019 đã chính thức bắt đầu
       </h3>

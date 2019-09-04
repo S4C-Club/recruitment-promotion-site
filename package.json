@@ -28,7 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "add-domain": "echo \"s4c.club\" > build/CNAME"
   },
   "eslintConfig": {
     "extends": "react-app"

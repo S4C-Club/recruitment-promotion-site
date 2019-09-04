@@ -1,21 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/header.css";
 import logo from "../assests/white-logo.png";
 
 import {
   Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
 } from "react-scroll";
 
 function Header() {
   return (
     <nav className="navbar-header navbar fixed-top navbar-expand-md navbar-dark">
       <a class="navbar-brand d-md-none" href="/">
-        <img src={logo} id="logo"></img>
+        <img src={logo} id="logo" alt="logo"></img>
       </a>
       <button
         class="navbar-toggler"
@@ -63,7 +58,7 @@ function Header() {
               smooth={true}
               duration={500}
             >
-              <img src={logo} id="logo"></img>
+              <img src={logo} id="logo" alt="logo"></img>
             </Link>
           </li>
           <li class="nav-item">
