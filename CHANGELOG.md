@@ -1,0 +1,57 @@
+## 0.1.0 (September 11, 2019)
+  - fix huge bugs
+  - update
+  - update
+  - Merge branch 'hotfixes' into dev
+  - fix cach thuc dang ky but navbar-header cannot
+  - fix minor bugs & google analytics
+  - integrate google analytics
+  - fix FB links & modified biggame part
+  - Merge branch 'release-1.0'
+  - update
+  - update
+  - fix conflict
+  - update
+  - add biggame block and fixed menu bar
+  - pretty huge update
+  - compress images
+  - compress images
+  - Merge branch 'release-0.8'
+  - done 80%
+  - update
+  - update
+  - update
+  - fix bug about bootstrap
+  - update
+  - update
+  - fix conflict
+  - update
+  - update
+  - update
+  - Merge remote-tracking branch 'origin/feature-header' into dev
+  - update header
+  - Merge remote-tracking branch 'origin/feature-header' into dev
+  - Merge remote-tracking branch 'origin/feature-header' into dev
+  - update favicon
+  - commit header
+  - Merge branch 'master' of github.com:S4C-Club/recruitment-promotion-site
+  - update package json & html file
+  - fix conflict
+  - update tff link
+  - done
+  - Create CNAME
+  - done footer
+  - Merge branch 'feature-intro' into dev
+  - update intro
+  - Merge branch 'feature-intro' into dev
+  - finish intro part
+  - Merge branch 'feature-intro' into dev
+  - update intro
+  - modify README
+  - change readme
+  - change readme
+  - fix conflict
+  - setup project
+  - Initial commit from Create React App
+  - Initial commit
+
