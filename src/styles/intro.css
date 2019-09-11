@@ -32,13 +32,14 @@
 .subTitle {
   color: #fff;
   font-size: 1.6rem;
-  margin-top: 20px;
+  margin: 30px 0 40px;
+  line-height: 1.6;
 }
 
 .register-button {
   padding: 13px 26px;
   border: 1px solid #fff;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   font-weight: bold;
   line-height: 24px;
@@ -52,7 +53,7 @@
 
 .register-button:hover {
   background-color: #fff;
-  color: #222;
+  color: #222 !important;
   opacity: 0.9;
 }
 

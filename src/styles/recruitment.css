@@ -10,18 +10,28 @@
   word-wrap: break-word;
 }
 
+.heading {
+  font-size: 3rem;
+}
+
 .recruitment-concept {
   padding: 60px 0;
 }
 
 .recruitment-content,
-.biggame-content {
+.biggame-content,
+.interview-content {
   margin: 0 auto !important;
 }
 
 .ttv-ava {
-  width: 80%;
+  width: 100%;
 }
+
+.interview-ava {
+  width: 100%;
+}
+
 .number-count-up {
   font-size: 5rem;
   display: block;
@@ -43,6 +53,10 @@
 
 .counter-item {
   padding: 0 30px;
+}
+
+.about-info {
+  margin-left: 2rem;
 }
 
 @media (max-width: 768px) {

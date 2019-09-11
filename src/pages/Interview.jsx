@@ -1,40 +1,56 @@
 import React from "react";
 import "../styles/biggame.css";
+import image from "../assests/interview.jpg";
 
 function Interview() {
   return (
     <div id="interview" className="interview">
-      <div className="row biggame-concept">
+      <div className="row interview-wrapper">
         <div className="col-md-12 text-center marb-35">
           <h1 className="title">Vòng phỏng vấn</h1>
         </div>
         <div className="col-md-1"></div>
-        <div className="col-md-10 row biggame-content">
+        <div className="col-md-10 row interview-content">
           <div className="col-md-6 col-sm-6">
-            <img src={} alt="" className="ttv-ava" />
+            <img src={image} alt="" className="interview-ava" />
           </div>
           <div className="col-md-6 col-sm-6">
             <div className="about-info">
-              <p className="mb-1">
-                ♦️BIG GAME 2019 của CLB S4C đã chính thức quay trở lại với phiên
-                bản “Truy tìm hồng ngọc - Finding the Beryl”. <br></br>
+              <p
+                className="mb-1"
+                style={{
+                  textAlign: "left",
+                  display: "block"
+                }}
+              >
+                "Chỉ cần bước thêm một bước nữa thôi, thành công sẽ vẫy tay với
+                bạn"
                 <br></br>
                 <br></br>
-                ♦️Liệu các bạn đã sẵn sàng để chinh phục những thử thách chông
-                gai, bí hiểm trước mắt? Hãy cùng S4C dấn thân vào chuyến phiêu
-                lưu “Truy tìm hồng ngọc - Finding the Berly” ngay hôm nay.
-                <br></br> <br></br> <br></br>
+                ♦️ Các ứng viên sau khi nhận được thông báo từ S4C hãy nhanh tay
+                gửi lại tin nhắn XÁC NHẬN cho vòng phỏng vấn tiếp theo.
                 <br></br>
                 <br></br>
+                ♦️ Thời gian phỏng vấn <b>12/09/2019</b>
                 <br></br>
-                <a
-                  className="button"
-                  target="blank"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfWUP6t3thiJMLk20WvMkAl2N5n8RUcurcdOZ1OlDn4Y6Kgsg/viewform?fbclid=IwAR1IUv0T-qF4-zI2wxuQtfID4Yi3JbG6G5cWnVrZwa-fNqZtC_ktmT__PSE"
-                >
-                  Đăng kí ngay tại đây
-                </a>
+                ♦️ Buổi sáng: 8h30-11h
+                <br></br>
+                ♦️ Buổi chiều: 13h30 - 17h
+                <br></br>
+                <br></br>
+                ♦️ Địa điểm phỏng vấn{" "}
+                <b>Khu nhà B9 (Phía sau canteen - Học viện)</b>
+                <br></br>
               </p>
+              <div className="registerButtonWrapper">
+                <a
+                  className="registerButton"
+                  target="blank"
+                  href="https://www.facebook.com/s4c.tuyenthanhvien/posts/121966495844471"
+                >
+                  LƯU Ý TRƯỚC PHỎNG VẤN
+                </a>
+              </div>
             </div>
           </div>
         </div>

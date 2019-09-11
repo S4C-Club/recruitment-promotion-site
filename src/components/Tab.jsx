@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/tab.css";
-import image from "../assests/biggameposter.jpg";
+import { Event } from "../components/Tracking/index";
 export default class Tab extends Component {
   render() {
     return (
@@ -51,7 +51,6 @@ export default class Tab extends Component {
                     CÁCH THỨC ĐĂNG KÝ
                   </a>
                 </li>
-                
               </ul>
               <div className="tab-content tabs">
                 <div role="tabpanel" className="tab-pane fade" id="Section2">
@@ -84,7 +83,6 @@ export default class Tab extends Component {
                     -Có một gia đình mới để yêu thương và lưu giữ những khoảnh
                     khắc đáng nhớ thời đại học.
                   </p>
-                  
                 </div>
                 <div role="tabpanel" className="tab-pane fade" id="Section3">
                   <h3 className="tab-title">Ban truyền thông: </h3>
@@ -170,11 +168,15 @@ export default class Tab extends Component {
                   <h3 className="tab-title">
                     Đăng ký online <br></br>
                   </h3>
-                  <a href="https://docs.google.com/forms/d/1e6fwHhgqc7w-yTPbC-rNSRlfabZ6V6LFyBpGhXgSVlA/viewform?fbclid=IwAR0TpHMIYhbZDBM6WwvA7PFFPtRuYuzB0zheYmts8ncxAFKMz6CsEbyBojs&edit_requested=true">
+                  <a
+                    href="https://docs.google.com/forms/d/1e6fwHhgqc7w-yTPbC-rNSRlfabZ6V6LFyBpGhXgSVlA/viewform?fbclid=IwAR0TpHMIYhbZDBM6WwvA7PFFPtRuYuzB0zheYmts8ncxAFKMz6CsEbyBojs&edit_requested=true"
+                    onClick={() =>
+                      Event("User", "Sign Up for Big Game", "SIGN_UP_BIG_GAME")
+                    }
+                  >
                     Đăng ký ngay tại đây
                   </a>
                 </div>
-                
               </div>
             </div>
           </div>

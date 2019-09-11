@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import "../styles/intro.css";
-import Header from "../components/Header";
 import Countdown from "react-countdown-now";
 import { Link } from "react-scroll";
+import { Event } from "../components/Tracking/index";
 
 function Intro() {
   const renderer = ({ days, hours, minutes, seconds }) => {
@@ -36,24 +36,21 @@ function Intro() {
       <h1 className="bigTitle">S4C</h1>
       <h1 className="introTitle">CLB TRUYỀN THÔNG & KỸ NĂNG MỀM</h1>
       <h3 className="subTitle">
-        CHÚC MỪNG CÁC ỨNG VIÊN ĐÃ LỌT VÀO VÒNG PHỎNG VẤN ĐỢT TUYỂN THÀNH VIÊN
-        GEN 7 CLB S4C
-      </h3>
-      <h3 className="subTitle">
-        Các ứng viên sau khi nhận được thông báo từ S4C hãy nhanh tay gửi lại
-        tin nhắn XÁC NHẬN cho vòng phỏng vấn tiếp theo.
+        CHÚC MỪNG CÁC ỨNG VIÊN <br></br>ĐÃ LỌT VÀO VÒNG PHỎNG VẤN ĐỢT TUYỂN
+        THÀNH VIÊN GEN 7 CLB S4C
       </h3>
 
       {/* <a
         href="http://bit.ly/tuyen-thanh-vien-S4C"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => Event("User", "Sign Up for S4C", "SIGN_UP_S4C")}
       >
         Đăng ký ngay!
       </a> */}
       <Link
         className="register-button"
-        to="app"
+        to="interview"
         spy={true}
         smooth={true}
         duration={500}
