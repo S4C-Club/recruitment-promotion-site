@@ -62,6 +62,7 @@
 @media (max-width: 768px) {
   .about-info {
     margin-top: 3rem;
+    margin-left: 0;
   }
   .recruitment-content {
     flex-direction: column-reverse;

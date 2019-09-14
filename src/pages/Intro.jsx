@@ -36,7 +36,7 @@ function Intro() {
       <h1 className="bigTitle">S4C</h1>
       <h1 className="introTitle">CLB TRUYỀN THÔNG & KỸ NĂNG MỀM</h1>
       <h3 className="subTitle">
-        CHÚC MỪNG CÁC ỨNG VIÊN <br></br>ĐÃ LỌT VÀO VÒNG PHỎNG VẤN ĐỢT TUYỂN
+        CHÚC MỪNG CÁC ỨNG VIÊN <br></br>ĐÃ VƯỢT QUA VÒNG PHỎNG VẤN ĐỢT TUYỂN
         THÀNH VIÊN GEN 7 CLB S4C
       </h3>
 
@@ -48,7 +48,7 @@ function Intro() {
       >
         Đăng ký ngay!
       </a> */}
-      <Link
+      {/* <Link
         className="register-button"
         to="interview"
         spy={true}
@@ -56,12 +56,12 @@ function Intro() {
         duration={500}
       >
         Thông tin vòng phỏng vấn
-      </Link>
+      </Link> */}
 
-      {/* <Countdown date={"Sun, 08 Sep 2019 00:00:00"} renderer={renderer} /> */}
-      {/* <h3 className="subTitle" style={{ margin: "0 0 20px" }}>
-        tới lúc đóng vòng đơn
-      </h3> */}
+      <Countdown date={"Sun, 15 Sep 2019 00:00:00"} renderer={renderer} />
+      <h3 className="subTitle" style={{ margin: "0 0 20px" }}>
+        tới lúc công bố kết quả
+      </h3>
     </div>
   );
 }

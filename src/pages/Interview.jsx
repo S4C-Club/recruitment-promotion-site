@@ -46,9 +46,9 @@ function Interview() {
                 <a
                   className="registerButton"
                   target="blank"
-                  href="https://www.facebook.com/s4c.tuyenthanhvien/posts/121966495844471"
+                  href="https://www.facebook.com/pg/s4c.tuyenthanhvien/photos/?tab=album&album_id=123186915722429"
                 >
-                  LƯU Ý TRƯỚC PHỎNG VẤN
+                  HÌNH ẢNH CỦA BUỔI PHỎNG VẤN
                 </a>
               </div>
             </div>
