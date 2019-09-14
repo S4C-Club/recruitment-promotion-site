@@ -58,7 +58,7 @@ function Intro() {
         Thông tin vòng phỏng vấn
       </Link> */}
 
-      <Countdown date={"Sun, 15 Sep 2019 00:00:00"} renderer={renderer} />
+      <Countdown date={"Sun, 15 Sep 2019 00:30:00"} renderer={renderer} />
       <h3 className="subTitle" style={{ margin: "0 0 20px" }}>
         tới lúc công bố kết quả
       </h3>
